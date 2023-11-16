@@ -37,6 +37,7 @@ module.exports = {
       errors: true
     },
     before: require('./mock/mock-server.js')
+    // before属性解释：这里是启动mock服务，即假数据服务。当我们后面搭建起自己的后端项目，则可以将此行注释掉
   },
   configureWebpack: {
     // provide the app's title in webpack's name field, so that
