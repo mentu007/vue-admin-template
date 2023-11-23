@@ -184,7 +184,6 @@ $light_gray:#eee;
   overflow: hidden;
   background-image: url(../../assets/login-container.jpg);
   background-size: 100%;
-  
   display: flex;
   align-items: center;
   .login-form {
@@ -194,7 +193,10 @@ $light_gray:#eee;
     padding: 160px 35px 0;
     margin: 0 auto;
     overflow: hidden;
-    background-color: rgba(214, 87, 118, 0.5); /* 半透明的红色背景 */
+    // background-color: rgba(214, 87, 118, 0.5); /* 半透明的红色背景 */
+    // 透明度方案2
+    background-color: #d65776;
+    opacity: 0.5;
   }
 
   .tips {
