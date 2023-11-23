@@ -193,10 +193,10 @@ $light_gray:#eee;
     padding: 35px 35px 0;
     margin: 0 auto;
     overflow: hidden;
-    // background-color: rgba(214, 87, 118, 0.5); /* 半透明的红色背景 */
+    background-color: rgba(214, 87, 118, 0.5); /* 半透明的红色背景 */
     // 透明度方案2
-    background-color: #d65776;
-    opacity: 0.5;
+    // background-color: #d65776;
+    // opacity: 0.5;
   }
 
   .tips {
