@@ -184,13 +184,9 @@ $light_gray:#eee;
   overflow: hidden;
   background-image: url(../../assets/login-container.jpg);
   background-size: 100%;
-
-/*
-  注释意义：跟着项目手敲，批注它的这个源码的意义   
+  
   display: flex;
   align-items: center;
-  加了还不如不加，本身在我这里就是居中的
-  */
   .login-form {
     position: relative;
     width: 520px;
@@ -198,6 +194,7 @@ $light_gray:#eee;
     padding: 160px 35px 0;
     margin: 0 auto;
     overflow: hidden;
+    background-color: rgba(214, 87, 118, 0.5); /* 半透明的红色背景 */
   }
 
   .tips {
