@@ -185,6 +185,12 @@ $light_gray:#eee;
   background-image: url(../../assets/login-container.jpg);
   background-size: 100%;
 
+/*
+  注释意义：跟着项目手敲，批注它的这个源码的意义   
+  display: flex;
+  align-items: center;
+  加了还不如不加，本身在我这里就是居中的
+  */
   .login-form {
     position: relative;
     width: 520px;
