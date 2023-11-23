@@ -183,6 +183,9 @@ $light_gray:#eee;
   background-color: $bg;
   overflow: hidden;
 
+
+  background-image: url(../../assets/login-container.jpg);
+
   .login-form {
     position: relative;
     width: 520px;
